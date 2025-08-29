@@ -1,0 +1,63 @@
+.cont{
+    height:500px ;
+    width: 500px;
+    background-color: aqua;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin-left: 50px;
+    line-height: 5rem;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    transition: all 1S 0.6S ease-in ;
+     transition: all 1S 0.6S ease-in    ;
+animation: saif 1s ease-in-out 1s infinite linear;
+transform: rotate(60deg)
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin-left: 30px;
+    line-height: 5rem;
+    text-align: center;
+    margin-top: 70px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin-left: 30px;
+    line-height: 5rem;
+    text-align: center;
+    margin-top: 90px;
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    margin-left: 20px;
+    line-height: 5rem;
+    text-align: center;
+    margin-top: 110px;
+    margin-right: 10PX;
+         transition: all 1S 0.6S ease-in  ;
+animation: spin 1s ease-in linear infinite normal; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    } 
+}
